@@ -1,28 +1,13 @@
-# ml-01 머신러닝개요
+# ml-05 지도학습 Linear Classifier (선형분류)
 
-- [ ] scikit-learn 연습 01
-- [ ] scikit-learn 연습 02
+Linear Classifier (선형분류)  
 
-#### scikit-learn 연습 01
-
-AND 연산 모델 작성
-AND연산?
-- 두값이 서로 참이면 1, 아니면 0
-
-|P(입력)| Q(입력)| R(출력)|
-|---|---|---|
-| 0| 0| 0|
-| 0| 1| 0|
-| 1| 0| 0|
-| 1| 1| 1|
 ```
-# pass
+SGDClassifier(alpha, average, class_weight, epsilon, eta0, fit_intercept, l1_ratio, learning_rate, loss, max_iter, n_iter, n_jobs, penalty, power_t, random_state, shuffle, tol, verbose, warm_start)
 ```
 
-#### scikit-learn 연습 02
-비만도 데이터 학습
-- 500명의 키와 몸무게, 비만도 라벨을 이용해 비만을 판단하는 모델을 만들어보자.
-```
-# pass
-```
-키 185, 몸무게 43 와 키 100, 몸무게 20의 비만도 라벨을 예측
+확률적 경사하강법(SGD, Stochastic Gradient Descent)을 이용하여 선형모델을 구현  
+
+### LinearClassifier 실습 01
+
+붓꽃 데이터 셋에 선형분류 적용  
